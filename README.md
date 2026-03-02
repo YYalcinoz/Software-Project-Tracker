@@ -9,67 +9,59 @@ All records are stored in a text file (projects.txt) in a clear and readable for
 
 Features
 
-Enter project details: Project Name, Team Leader, Team Size, Project Type, and Start Date
+- Enter project details: Project Name, Team Leader, Team Size, Project Type, and Start Date
 
-Save project records to projects.txt with a structured layout
+- Save project records to projects.txt with a structured layout
 
-Input validation: required fields must be filled; otherwise, an error message is displayed
+- Input validation: required fields must be filled; otherwise, an error message is displayed
 
-Clear the form easily with the Clear button
+- Clear the form easily with the Clear button
 
-Automatically logs the Record Time for each entry
+- Automatically logs the Record Time for each entry
 
 Technologies
 
-Java SE
+- Java SE
 
-Java Swing (JFrame, JPanel, JButton, JTextField, JComboBox)
+- Java Swing (JFrame, JPanel, JButton, JTextField, JComboBox)
 
-File I/O (FileWriter)
+- File I/O (FileWriter)
 
-JOptionPane for user messages
+- JOptionPane for user messages
 
-DateTimeFormatter for date and time
+- DateTimeFormatter for date and time
 
 Usage
 
-Open the project in Eclipse or any Java IDE
+- Open the project in Eclipse or any Java IDE
 
-Fill out the project form:
+- Fill out the project form:
 
-Project Name
+- Project Name
 
-Team Leader
+- Team Leader
 
-Team Size
+- Team Size
 
-Project Type
+- Project Type
 
-Start Date
+- Start Date
 
 Click Save:
 
-If all required fields are filled, the project is saved and a success message appears
+- If all required fields are filled, the project is saved and a success message appears
 
-If fields are missing, an error message is shown
+- If fields are missing, an error message is shown
 
-Click Clear to reset the form
+- Click Clear to reset the form
 
-Check projects.txt in the project’s root folder for saved records
+- Check projects.txt in the project’s root folder for saved records
 
-Example Record in projects.txt
-=== Project Entry ===
-Project Name: [TaleVerse]
-Team Leader: [Bekir Kaan Çalışkan]
-Team Size: [1-3]
-Project Type: [Web]
-Start Date: [02/03/2026]
-Record Time: [02/03/26, 22:24:01]
-====================
+
 Notes
 
-The file is opened in append mode, so new projects are added without overwriting previous entries
+- The file is opened in append mode, so new projects are added without overwriting previous entries
 
-If projects.txt does not appear in Eclipse, refresh the project (F5) in the Project Explorer
+- If projects.txt does not appear in Eclipse, refresh the project (F5) in the Project Explorer
 
-Multiple projects can be tracked in the same file
+- Multiple projects can be tracked in the same file
